@@ -1,0 +1,13 @@
+.brand-gradient {
+    background: #608dcf;
+    background: linear-gradient(to bottom left, #608dcf 21%, #a5cf2c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+.banner-holder {
+    background-image: url(./gambar/bg-hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
