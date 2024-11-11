@@ -1,3 +1,9 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
 .brand-gradient {
   background: #608dcf;
   background: linear-gradient(to bottom left, #608dcf 21%, #a5cf2c 100%);
