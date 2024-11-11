@@ -1,8 +1,8 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
-
 
 .brand-gradient {
   background: #608dcf;
@@ -29,6 +29,11 @@ body, html {
 }
 
 .text-center {
+  position: relative; /* Membuat konten berada di atas overlay */
+  z-index: 2; /* Agar teks tetap terlihat di atas overlay */
+}
+
+.defaultPage-text {
   position: relative; /* Membuat konten berada di atas overlay */
   z-index: 2; /* Agar teks tetap terlihat di atas overlay */
 }
